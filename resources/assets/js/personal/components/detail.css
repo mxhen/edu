@@ -1,0 +1,88 @@
+.head{
+    width:100%;
+}
+.news-detail{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom:40px;
+}
+.news-title{
+    margin-top: 40px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.news-title>button{
+    width: 50px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.second-title{
+    width:95%;
+    display:flex;
+    flex-direction:row;
+    margin-bottom:50px;
+}
+.second-title>span{
+    font-size: 15px;
+    color: #999999;
+    margin-left:60px;
+}
+.third-title{
+    width: calc( 95% - 55px );
+    padding-left: 55px;
+    margin-top: 40px;
+}
+.third-title>video{
+    width:100%;
+}
+.third-title>img{
+    max-width:100%;
+}
+.classes{
+    width: calc( 95% - 60px );
+    padding-left: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height:150px;
+    overflow:auto;
+}
+.classes>span{
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    cursor:pointer;
+    margin-right:20px;
+    margin-bottom:10px;
+}
+.btn-grp{
+    margin-top:20px;
+}
+.btn-grp>label{
+    background: #417DD1;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+    border:0;
+}
+.btn-grp>label:active{
+    background-color:blue;
+}
+.operate-btn{
+    width: calc( 95% - 60px );
+    margin-bottom: 10px;
+    padding-left: 60px;
+}
+.selected{
+    border-color:green!important;
+    background:green;
+    color:white;
+}

@@ -1,0 +1,29 @@
+.info-head{
+    width:100%;
+}
+.info-news-detail{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom:40px;
+}
+.info-news-title{
+    margin-top:40px;
+    width:95%;
+}
+.info-second-title{
+    width:95%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    overflow:hidden;
+    height:480px;
+    margin-top:20px;
+}
+.info-third-title{
+    width:98%;
+    margin-left:20px;
+}

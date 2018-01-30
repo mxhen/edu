@@ -1,0 +1,17 @@
+html{
+	height:100%;
+}
+body{
+	margin:0;
+	width:100%;
+	height:100%;
+}
+#app{
+	width:100%;
+	min-width:1280px;
+	display:flex;
+	flex-direction:column;
+    /**background-color:#F5F8FA;**/
+    background-color:#FFFFFF;
+    min-height:100%;
+}

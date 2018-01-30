@@ -1,0 +1,124 @@
+.addclass-head{
+    width:100%;
+}
+.addclass-news-detail{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom:40px;
+}
+.addclass-news-title{
+    margin-top:20px;
+    width:95%;
+}
+.addclass-news-title>button{
+    margin-bottom:30px;
+}
+.addclass-news-detail>div{
+    margin-bottom:20px;
+}
+.addclass-second-title{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    overflow:hidden;
+}
+.addclass-second-title>div{
+    width: calc( 100% - 2px );
+    display: flex;
+    flex-direction:column;
+}
+.addclass-second-title>div>p{
+    margin: 0 10px 0 20px;
+    border-width: 0 0 1px 0;
+    border-style: dashed;
+    padding: 10px 0 10px 0;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow:hidden;
+    width:calc( 100% - 50px );
+}
+.addclass-second-title>div>button{
+    width: 50px;
+    align-self: flex-end;
+}
+.addclass-second-title>div>p:hover{
+    color:blue;
+}
+.addclass-second-title>span{
+    font-size: 15px;
+    color: #999999;
+}
+.addclass-third-title{
+    width:98%;
+    margin-left:20px;
+}
+.addclass-third-title>span{
+    margin:0 5px 0 0;
+    cursor:pointer;
+    font-size:14px;
+}
+.addclass-third-title>span:hover{
+    color:blue;
+}
+.addclass-third-title>img{
+    max-width:100%;
+}
+.addclass-editer{
+    border: 1px solid black;
+    height:100%;
+}
+.addclass-editer-tab{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap:wrap;
+    height: 30px;
+    background: #cdcdcd;
+    position:relative;
+}
+.addclass-tab-tool{
+    background: #417DD1;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    cursor:pointer;
+}
+.addclass-edit-area{
+    min-height: 80px;
+    outline: none;
+    overflow-y: auto;
+    border: 1px solid black;
+}
+.addclass-img-class{
+    width:100%;
+    text-align:center;
+}
+.addclass-img-class>img{
+    width:50%;
+}
+.addclass-imgupload{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    background: #cdcdcd;
+    width: 150px;
+}
+.addclass-news-head{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+.addclass-news-head>button{
+    width:90px;
+}
+.addclass-news-head>img{
+    width:50%;
+}

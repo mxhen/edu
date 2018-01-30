@@ -1,0 +1,17 @@
+.index-flex{
+   width:100%;
+   display:flex;
+   flex-direction:column;
+   justify-content:flex-start;
+   align-items:center;
+}
+.index-input{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+}
+.index-input>input{
+    width:80%;
+}

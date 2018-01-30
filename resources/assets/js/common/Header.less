@@ -1,0 +1,45 @@
+.edu-flex-head{
+    width:100%;
+    height:129px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    flex:0 0 auto;
+    background:url(/images/header.jpg) repeat-x;
+}
+.edu-flex(@width:100%,@flex:row,@content:flex-start,@align:center){
+    width:@width;
+    display:flex;
+    flex-direction:@flex;
+    justify-content:@content;
+    align-items:@align;
+}
+.edu-first-layer{
+    .edu-flex(1000px,row,space-between,flex-start);
+    height:97px;
+}
+.edu-second-layer{
+    .edu-flex(1000px,row,flex-start,center);
+    height:32px;
+    span {
+        width:99px;
+        height:32px;
+        background:url(/images/line.jpg) no-repeat right center;
+        a{
+            width:97px;
+            height:32px;
+            color:white;
+            line-height: 32px;
+            text-align: center;
+            display: block;
+            text-decoration:none;
+            font-weight: bold;
+            font-size: 16px;
+            cursor:pointer;
+            &:hover{
+                background:url(/images/nav.jpg) no-repeat;
+            }
+        }
+    }
+}

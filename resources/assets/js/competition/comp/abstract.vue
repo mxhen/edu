@@ -1,0 +1,22 @@
+<template>
+<div>
+    <div>
+        <span>大赛简介</span>
+        <div>
+            ddd
+        </div>
+    </div>
+    <div>
+        <span>大赛流程</span>
+        <div>
+            ddd
+        </div>
+    </div>
+    <div>
+        <span>组织形式</span>
+        <div>
+            ddd
+        </div>
+    </div>
+</div>
+</template>

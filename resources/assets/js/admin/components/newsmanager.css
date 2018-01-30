@@ -1,0 +1,68 @@
+.mana-head{
+    width:100%;
+}
+.mana-news-detail{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom:40px;
+}
+.mana-news-title{
+    margin-top:40px;
+    width:95%;
+}
+.mana-news-detail>div{
+    margin-bottom:20px;
+}
+.mana-second-title{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    overflow:hidden;
+    height:480px;
+}
+.mana-second-title>div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.mana-second-title>div>p{
+    margin: 0 10px 0 20px;
+    border-width: 0 0 1px 0;
+    border-style: dashed;
+    padding: 10px 0 10px 0;
+    white-space: nowrap;
+    cursor: pointer;
+    overflow:hidden;
+    width:calc( 100% - 50px );
+}
+.mana-second-title>div>button{
+    width: 50px;
+    align-self: flex-end;
+}
+.mana-second-title>div>p:hover{
+    color:blue;
+}
+.mana-second-title>span{
+    font-size: 15px;
+    color: #999999;
+}
+.mana-third-title{
+    width:98%;
+    margin-left:20px;
+}
+.mana-third-title>span{
+    margin:0 5px 0 0;
+    cursor:pointer;
+    font-size:14px;
+}
+.mana-third-title>span:hover{
+    color:blue;
+}
+.mana-third-title>img{
+    max-width:100%;
+}

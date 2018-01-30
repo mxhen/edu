@@ -1,0 +1,98 @@
+.course-head{
+    width:100%;
+}
+.course-news-detail{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom:40px;
+}
+.course-news-title{
+    margin-top: 40px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.course-news-title>button{
+    width: 50px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.course-second-title{
+    width:95%;
+    display:flex;
+    flex-direction:row;
+    margin-bottom:50px;
+}
+.course-second-title>span{
+    font-size: 15px;
+    color: #999999;
+    margin-left:60px;
+}
+.course-third-title{
+    width: 95%;
+    margin-top: 40px;
+    text-align: center;
+    background: gray;
+    margin-left: 60px;
+}
+.course-third-title>video{
+    width:95%;
+}
+.course-third-title>img{
+    max-width:100%;
+}
+.course-classes{
+    width: calc( 95% - 60px );
+    padding-left: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height:150px;
+    overflow:auto;
+}
+.course-classes>span{
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    cursor:pointer;
+    margin-right:20px;
+    margin-bottom:10px;
+}
+.course-btn-grp{
+    margin-top:20px;
+}
+.course-btn-grp>button{
+    background: #417DD1;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+    border:0;
+}
+.course-btn-grp>label{
+    background: #417DD1;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+    border:0;
+}
+.course-btn-grp>button:active{
+    background-color:blue;
+}
+.course-operate-btn{
+    width: calc( 95% - 60px );
+    margin-bottom: 10px;
+    padding-left: 60px;
+}
+.course-selected{
+    border-color:green!important;
+    background:green;
+    color:white;
+}
